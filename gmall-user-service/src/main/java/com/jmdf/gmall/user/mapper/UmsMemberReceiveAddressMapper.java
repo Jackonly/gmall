@@ -1,7 +1,7 @@
 package com.jmdf.gmall.user.mapper;
 
 
-import com.jmdf.gmall.user.bean.UmsMemberReceiveAddress;
+import com.jmdf.gmall.bean.UmsMemberReceiveAddress;
 import tk.mybatis.mapper.common.Mapper;
 
 /**

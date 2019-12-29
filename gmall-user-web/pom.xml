@@ -2,18 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<!-- 父项目pom依赖坐标-->
 	<parent>
 		<groupId>com.jmdf.gmall</groupId>
 		<artifactId>gmall-parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
 	<groupId>com.jmdf.gmall</groupId>
-	<artifactId>gmall-user</artifactId>
+	<artifactId>gmall-user-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gmall-user</name>
-	<description>gmall-user project for Spring Boot</description>
+	<name>gmall-user-web</name>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -22,24 +21,13 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.jmdf.gmall</groupId>
-			<artifactId>gmall-api</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.jmdf.gmall</groupId>
-			<artifactId>gmall-service-util</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.jmdf.gmall</groupId>
 			<artifactId>gmall-web-util</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.16.22</version>
-			<scope>provided</scope>
+			<groupId>com.jmdf.gmall</groupId>
+			<artifactId>gmall-api</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
